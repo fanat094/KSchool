@@ -1,0 +1,69 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="304dp"
+    android:layout_marginBottom="16dp"
+    android:clickable="true"
+    android:layout_margin="8dp"
+    android:foreground="?attr/selectableItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/card_image"
+            android:src="@drawable/kschool"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/card_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_title_height"
+            android:layout_alignBottom="@+id/card_image"
+            android:layout_marginLeft="@dimen/md_keylines"
+            android:text="@string/item_title"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+        <TextView
+            android:id="@+id/card_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_image"
+            android:layout_marginLeft="@dimen/md_keylines"
+            android:layout_marginTop="@dimen/md_keylines"
+            android:layout_marginBottom="@dimen/md_keylines"
+            android:layout_marginRight="@dimen/md_keylines"
+            android:text="Математика-цариця всіх наук!"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/dark_grey"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/date_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card_text"
+            style="?android:attr/borderlessButtonStyle"
+            android:textColor="@color/colorPrimary"
+            android:text="Date" />
+
+        <ImageButton
+            android:id="@+id/share_button"
+            android:layout_width="@dimen/cards_button_width"
+            android:layout_height="@dimen/cards_button_height"
+            android:layout_marginRight="@dimen/md_keylines"
+            android:src="@drawable/ic_share_black_24dp"
+            android:layout_below="@+id/card_text"
+            android:layout_alignParentRight="true"
+            style="?android:attr/borderlessButtonStyle"
+            android:tint="@color/button_grey" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#303F9F</color>
+
+    <color name="black">#000</color>
+    <color name="white">#FFF</color>
+
+    <color name="orange">#FF9900</color>
+    <color name="green">#009900</color>
+    <color name="blue">#000099</color>
+
+    <color name="dark_grey">#424242</color>
+    <color name="medium_grey">#9E9E9E</color>
+    <color name="button_grey">#757575</color>
+
+    <color name="tab_select">#C5CAE9</color>
+</resources>
